@@ -1,0 +1,213 @@
+* {
+    margin: 0px;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Sofia Sans', sans-serif;
+}
+
+body{
+    background-color: lightcyan;
+}
+
+/* Header styles */
+header{
+    color: white;
+    text-align: center;
+    background-color: beige;
+    padding: 130px 230px;
+    background-image: url('../images/donation13.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.header-title{
+    color: white;
+    font-weight: 700;
+    font-size: 70px;
+    margin-bottom: 25px;
+}
+
+.header-des{
+    font-size: 20px;
+    color: white;    
+    margin-bottom: 25px;
+}
+
+.btn-primary{
+    color: white;
+    background-color: rgb(245, 80, 80);
+    font-weight: 500;
+    font-size: 24px;
+    border-radius: 5px;
+    border: 0px;
+    padding: 10px 20px;
+}
+
+.btn-primary:hover, #sub-button:hover{
+    background-color: black;
+}
+
+/* Donate Today Section styles */
+.donate-today{
+    text-align: center;
+    margin: 100px 300px;
+}
+
+.donate-today ul > li{
+    color: rgb(59, 56, 56);
+    display: inline;
+    list-style: none;
+    font-size: 37px;
+    font-weight: 700;
+    background-color: rgb(242, 237, 237);
+    padding: 40px 20px;
+    margin: 25px 10px;
+}
+
+.donate-today ul > li:hover{
+    color: rgb(240, 90, 90);
+    background-color: rgb(255, 211, 211);
+    border: 2px solid rgb(240, 90, 90);
+}
+
+.donate-today ul{
+    margin: 100px 0px;
+}
+
+.title-primary{
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+
+.des-primary{
+    font-size: 20px;
+    color: rgb(132, 128, 128);
+    margin-bottom: 25px;    
+}
+
+.other-amount{
+    margin-bottom: 10px;
+    color: rgb(132, 128, 128);
+}
+
+.donate-today hr{
+    color: rgb(132, 128, 128);
+    margin-bottom: 30px;
+}
+
+/* Our Donate Plan Styles */
+.donate-plan{
+    text-align: center;
+}
+
+.donate-plan-content{
+    display: flex;
+    margin: 100px 170px;
+}
+
+.plan-sub-content{
+    margin-right: 25px;
+    text-align: left;
+    padding: 80px 35px;
+    border-radius: 8px;
+    box-shadow: 3px 3px 3px grey;
+}
+
+#sub1-color{
+    background-color: rgb(225, 242, 242);
+}
+
+#sub2-color{
+    background-color: rgb(236, 210, 214);
+}
+
+#sub3-color{
+    background-color: rgb(243, 236, 190);
+}
+
+.sub-content-title{
+    font-size: 27px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.plan-sub-content p{
+    color: rgb(159, 144, 144);
+    font-size: 18px;
+}
+
+.plan-sub-content img{
+    margin-bottom: 20px;
+}
+
+/* How to Contribute? Styles */
+.contribute{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:  100px 250px 100px 250px;
+}
+
+.contribute img{
+    border-radius: 15px;
+}
+
+.contribute img:hover{
+    box-shadow: 5px 5px 5px 5px gray;
+}
+
+/*Update section */
+.update{
+    text-align: center;
+}
+
+.bottom-sec{
+    border: 3px solid black;
+    background-color: rgb(252, 227, 189);
+    margin: 50px 300px 200px 300px;
+    padding: 100px 230px;
+}
+
+.sub-bottom{
+    /* border: 3px solid black; */
+    height: 50px;
+    width: 500px;
+    display: flex;
+}
+
+#sub-input{
+    width: 100%;
+    background-color: rgb(181, 181, 181);
+    padding: 20px;
+    font-size: 22px;
+    border: 0px;
+    border-radius: 10px 0px 0px 10px;
+}
+
+#sub-button{
+    font-size: 22px;
+    color: aliceblue;
+    padding: 10px;
+    border: 0px;
+    background-color: rgb(244, 85, 85);
+    border-radius: 0px 10px 10px 0px;
+}
+
+/* Footer Style */
+footer{
+    text-align: center;
+    padding: 70px 0px;
+    color: cadetblue;
+    background-color: black;
+}
+
+footer h3{
+    font-size: 40px;
+    margin-bottom: 17px;
+    font-weight: 800;
+    color: rgb(243, 109, 109);
+}
+
+footer h3:hover{
+    text-shadow: .4px .4px .4px white;
+}
