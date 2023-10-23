@@ -14,8 +14,10 @@ header{
     text-align: center;
     background-color: beige;
     padding: 130px 230px;
-    background-image: url('../images/donation13.jpg');
+    background-image: linear-gradient(to right, rgba(0, 0, 0, .7), rgba(0, 0, 0, .1)), url('../images/donation13.jpg');
     background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
     background-position: center;
 }
 
